@@ -14,7 +14,6 @@ class MessageStream extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // print(loggedInUser);
     List<MessageBubble> messageBubbles = [];
     return StreamBuilder(
       stream: _fireStore

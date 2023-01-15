@@ -18,10 +18,6 @@ class FlashChat extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // FocusScopeNode currentFocus = FocusScope.of(context);
-        // if (!currentFocus.hasPrimaryFocus) {
-        //   currentFocus.unfocus();
-        // }
         FocusScope.of(context).requestFocus(new FocusNode());
       },
       child: Sizer(

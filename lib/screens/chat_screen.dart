@@ -73,7 +73,6 @@ class _ChatScreenState extends State<ChatScreen> {
                   TextButton(
                     onPressed: () {
                       textFieldController.clear();
-                      // FocusScope.of(context).requestFocus(new FocusNode());
                       Messaging().sendMessage(
                           loggedInUser, widget.recipient, messageText);
                     },

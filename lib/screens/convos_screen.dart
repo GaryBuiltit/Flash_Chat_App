@@ -14,7 +14,6 @@ class ConvoScreen extends StatefulWidget {
 
 class _ConvoScreenState extends State<ConvoScreen> {
   User loggedInUser;
-  // FirebaseFirestore _firestore = FirebaseFirestore.instance;
   FirebaseAuth _auth = FirebaseAuth.instance;
   String searchText;
 
@@ -56,10 +55,10 @@ class _ConvoScreenState extends State<ConvoScreen> {
                       onTap: () {
                         try {
                           Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => LoginScreen()),
-                              );
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => LoginScreen()),
+                          );
                           _auth.signOut();
                         } catch (e) {
                           print('Signout Error: $e');

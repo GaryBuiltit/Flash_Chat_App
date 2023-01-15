@@ -3,11 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 class Messaging {
   FirebaseFirestore _fireStore = FirebaseFirestore.instance;
-  // final User loggedInUser;
-  // final String recipient;
-  // final String messageText;
-
-  // Messaging(this.loggedInUser, this.recipient, this.messageText);
 
   void sendMessage(User loggedInUser, String recipient, String messageText) {
     var senderMessageCollection = _fireStore
@@ -45,7 +40,6 @@ class Messaging {
             var oldMessage = messageData as Map;
             updatedMessages.add(oldMessage);
           }
-          // updatedMessages = messageList;
           updatedMessages.add(message);
           senderMessageCollection.set(messageDoc);
         } catch (e) {
@@ -70,7 +64,6 @@ class Messaging {
             var oldMessage = messageData as Map;
             updatedMessages.add(oldMessage);
           }
-          // updatedMessages = messageList;
           updatedMessages.add(message);
           recipientMessageCollection.set(messageDoc);
         } catch (e) {
