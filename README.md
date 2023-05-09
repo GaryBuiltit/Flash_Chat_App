@@ -35,5 +35,3 @@ Flutter chat messagig app
 
 - Website - [Coming Soon]()
 - Twitter - [@GaryAThe2nd](https://www.twitter.com/GaryAThe2nd)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
