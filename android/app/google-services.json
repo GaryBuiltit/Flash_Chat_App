@@ -7,12 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1086490206757:android:12182dbf738dc1104155cc",
+        "mobilesdk_app_id": "1:1086490206757:android:e5823f478a147f204155cc",
         "android_client_info": {
-          "package_name": "com.gary.flash_chat_new"
+          "package_name": "com.alford_digital.flash_chat"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "1086490206757-4rs3gingl0tqpd7nolc4uehe1qoq26vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alford_digital.flash_chat",
+            "certificate_hash": "0c9ae1de63fb172ae47cd4b4b64c5c43b635a107"
+          }
+        },
         {
           "client_id": "1086490206757-h0n23a0ckj9n3b97o7jcpi1o52n4plma.apps.googleusercontent.com",
           "client_type": 3

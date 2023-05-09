@@ -1,4 +1,4 @@
-import 'package:flash_chat_new/screens/chat_screen.dart';
+import 'package:flash_chat/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

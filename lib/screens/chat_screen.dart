@@ -1,9 +1,9 @@
 // import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flash_chat_new/constants.dart';
-import 'package:flash_chat_new/utilities/message_stream.dart';
+import 'package:flash_chat/constants.dart';
+import 'package:flash_chat/utilities/message_stream.dart';
 import 'package:flutter/material.dart';
-import 'package:flash_chat_new/utilities/messaging.dart';
+import 'package:flash_chat/utilities/messaging.dart';
 
 User loggedInUser;
 

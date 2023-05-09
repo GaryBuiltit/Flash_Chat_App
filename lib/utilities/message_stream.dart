@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flash_chat_new/components/message_bubble.dart';
+import 'package:flash_chat/components/message_bubble.dart';
 import 'package:intl/intl.dart';
 
 class MessageStream extends StatelessWidget {
@@ -53,9 +53,12 @@ class MessageStream extends StatelessWidget {
           }
         }
         return Expanded(
-          child: ListView(
+          child: ListView.builder(
             reverse: true,
-            children: messageBubbles,
+            itemCount: messageBubbles.length,
+            itemBuilder: (context, index) {
+              return messageBubbles[index];
+            },
           ),
         );
       },

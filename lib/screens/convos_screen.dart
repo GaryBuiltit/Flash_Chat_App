@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flash_chat_new/screens/login_screen.dart';
-import 'package:flash_chat_new/utilities/convo_stream.dart';
+import 'package:flash_chat/screens/login_screen.dart';
+import 'package:flash_chat/utilities/convo_stream.dart';
 import 'package:flutter/material.dart';
 import '../components/new_message_bottomsheet.dart';
 
